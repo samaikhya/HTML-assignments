@@ -1,0 +1,39 @@
+html{
+	background-color: #000000;
+	color: white;
+}
+.default
+{
+	text-align:center;
+	font-size: 50px;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#form1
+{
+	border: dotted;
+padding-left: 5px;
+ background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+}
+label{
+	background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+}
+input{
+	background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+}
+button{
+	border-radius: 10px;
+	background: linear-gradient(to left, #ff0000 0%,  pink,white);
+}
+.image{
+	background-color: white;
+
+}
+img{
+	width: 1295px;
+	height: 700px;
+	padding: 20px;
+	border-radius: 50px;
+}
+
+

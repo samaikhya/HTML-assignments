@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment1</title>
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<div class="default">
+	<header><u><b>This is a <span style="color:yellow;">header</span> tag</b></u>
+	</header>
+	</div>
+</head>
+<body>
+<div>
+	<h1>This is a usual h1 heading having div as a parent</h1>
+	<p>This is a usual paragraph, which is a direct child of div and direct sibling of h1</p>
+	<br><hr>
+	<article>This is an article tag, i am only children of above div</article>
+	<br><hr>
+	<section>This is section tag, i am the only children of this div</section>
+	<br><br><hr>
+</div>
+<form>
+	<div id="form1">
+		<form action="http://www.google.com/">
+		<h2>This is a h2 tag inside a form telling you guys that this is a feedback form</h2>
+		<section>
+		<label for="input1">Enter Your Name: </label> 
+		<input type="text" id="input1">
+	</section>
+	  <section>
+		<label for="input2">Enter your email id:  </label> 
+		<input type="text" id="email">
+	</section>
+	<section></section>
+		<label for="rating">Rating: </label> 
+		<input type="number" max="10" min="1" oninput="validity.valid||(value='')">
+	</section>
+	<section>
+		<p> please select the favorite web language:</p>
+		<input type="radio" id="batch9" name="batch" value="Batch 09">
+		<label for="batch9">Batch 09</label><br>
+		<input type="radio" id="batch10" name="batch" value="Batch 10">
+		<label for="batch10">Batch 10</label>
+		<br>
+		</section><br>
+		<section>
+   <button type="submit">Submit form to get redirected to google</button>
+   </section>
+   <br>
+   <br>
+</form>
+</div>
+<br>
+   <div style="background-color: white;">
+   	<img src="BTS.jpg">
+   </div>
+   <div class="default">
+<footer><u><b>This is a footer tag</b></u></footer>
+</div>
+</body>
+</html>
